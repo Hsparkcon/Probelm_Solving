@@ -38,6 +38,6 @@ vector<int> shuffle(vector<int>& nums, int n) {
             returnResult.push_back(nums[iterNums_X]);
             returnResult.push_back(nums[iterNums_Y]);
         }
-        
+
         return returnResult;   
 }
