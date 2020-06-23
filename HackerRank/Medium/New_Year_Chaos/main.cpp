@@ -9,13 +9,15 @@ void minimumBribes(vector<int> q);
 
 int main(){
     vector<pair<vector<int>, string>> testCase;
-    testCase.push_back(make_pair({2, 1, 5, 3, 4}, "3"));
-    testCase.push_back(make_pair({2, 5, 1, 3, 4}, "Too chaotic"));
-    testCase.push_back(make_pair({5, 1, 2, 3, 7, 8, 6, 4}, "Too chaotic"));
-    testCase.push_back(make_pair({1, 2, 5, 3, 7, 8, 6, 4}, "7"));
+    testCase.push_back(make_pair(vector<int> {2, 1, 5, 3, 4}, "3"));
+    testCase.push_back(make_pair(vector<int> {2, 5, 1, 3, 4}, "Too chaotic"));
+    testCase.push_back(make_pair(vector<int> {5, 1, 2, 3, 7, 8, 6, 4}, "Too chaotic"));
+    testCase.push_back(make_pair(vector<int> {1, 2, 5, 3, 7, 8, 6, 4}, "7"));
 
     for(auto iterTestCase: testCase){
-        cout << "Output: " << minimumBribes(iterTestCase.first) << " Expected: " << iterTestCase.second << endl;
+        cout << "Output: "; 
+        minimumBribes(iterTestCase.first);
+        cout << "Expected: " << iterTestCase.second << endl;
     }
 
     return 0;
