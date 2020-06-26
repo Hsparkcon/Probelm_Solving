@@ -1,7 +1,7 @@
 # Problem-Solving Practices
 ## The repository includes solutions for problem-solving questions from 
-* HackerRank
-* LeetCode
+* [HackerRank](https://www.hackerrank.com/)
+* [LeetCode](https://leetcode.com/)
 
 ## About the solutions
 - The solutions are not **optimized** solution.
